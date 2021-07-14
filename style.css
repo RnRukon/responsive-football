@@ -111,10 +111,6 @@ header {
     font-size: 20PX;
 }
 
-hr {
-    margin: 50px;
-}
-
 article {
     display: flex;
     justify-content: center;
@@ -122,11 +118,11 @@ article {
 }
 
 .freme {
-    width: 1000px;
+    width: 1050px;
 }
 
 article div img {
-    width: 1000px;
+    width: 1050px;
 }
 
 .ditals h1 {
