@@ -137,28 +137,31 @@ article {
     padding: 20px;
 }
 
-article div img {
-    width: 1050px;
+#Organization-img {
+    width: 200px;
 }
 
 .ditals h1 {
     font-size: 45px;
 }
 
-figure {
+.Highlights-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 1080px;
-    grid-column: auto;
-    padding: 20px;
+    width: 1040px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }
 
-figure img {
-    width: 80%;
+.match-content {
+    width: 50%;
+    height: 284px;
 }
 
-figure div {
-    margin-left: 20px;
+.match img {
+    width: 100%;
+    height: 284px;
 }
 
 footer {
@@ -213,14 +216,12 @@ footer img {
         width: 100%;
         padding: 10px;
     }
-    article div img {
+    .Highlights-content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .match img, .match-content {
         width: 100%;
-    }
-    figure {
-        grid-template-columns: 1fr;
-    }
-    figure div {
-        margin-left: 0px;
     }
     footer img {
         width: 275.8px;
@@ -237,7 +238,7 @@ footer img {
 .............................*/
 
 @media only screen and (min-width: 688px) and (max-width:992px) {
-    .players {
+    .players, .Highlights-content {
         grid-template-columns: repeat(2, 1fr);
     }
     .header-banner img {
